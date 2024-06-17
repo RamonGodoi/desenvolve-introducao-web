@@ -1,0 +1,12 @@
+/* Color Theme Swatches in Hex */
+/*.destaque { color: #660273; }
+.background { color: #6241D9; }
+.principal { color: #44F2E1; }
+.Design-de-jogos-2-hex { color: #F2B3E1; }
+.Design-de-jogos-4-hex { color: #1E1940; }
+*/
+
+html{
+    background:#660273;
+    color:#44F2E1;
+}
