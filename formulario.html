@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário de Satisfação</title>
+    </head>
+    <body>
+        <h1>Formulário de Satisfação</h1>
+        <form method="post" action="processar-pesquisa.html">
+            <section>
+                <h2>Dados Pessoais</h2>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome">
+                </p>
+                <p>
+                    <label for="email">E-mail</label>
+                    <input type="e-mail" id="email">
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone">
+                </p>
+            </section>
+            <section>
+                <h2>Dados de Pesquisa</h2>
+                <p>
+                    Como você avalia nosso atendimento:
+                    <input type="radio" id="muito-bom" name="atendimento">
+                    <label for="muito-bom">Muito Bom</label>
+                    <input type="radio" id="bom" name="atendimento">
+                    <label for="bom">Bom</label>
+                    <input type="radio" id="mediano" name="atendimento">
+                    <label for="mediano">Mediano</label>
+                    <input type="radio" id="ruim" name="atendimento">
+                    <label for="ruim">Ruim</label>
+                    <input type="radio" id="pessimo" name="atendimento">
+                    <label for="pessimo">Péssimo</label>
+                </p>
+                <p>
+                    Como você avalia nossos produtos:
+                    <input type="radio" id="muito-bom" name="produto">
+                    <label for="muito-bom">Muito Bom</label>
+                    <input type="radio" id="bom" name="produto">
+                    <label for="bom">Bom</label>
+                    <input type="radio" id="mediano" name="produto">
+                    <label for="mediano">Mediano</label>
+                    <input type="radio" id="ruim" name="produto">
+                    <label for="ruim">Ruim</label>
+                    <input type="radio" id="pessimo" name="produto">
+                    <label for="pessimo">Péssimo</label>
+                </p>
+                <p>
+                    <label for="area">Em qual área devemos melhorar para melhorar a sua nota:</label>
+                    <select>
+                    <option>Atendimento</option>
+                    <option>Forma de Pagamento</option>
+                    <option>Valor dos Produtos</option>
+                    <option>Qualidade dos Produtos</option>
+                    <option>Variedade dos Produtos</option>
+                    </select>
+                    
+                </p>
+                <p>
+                    <input type="checkbox" id="compartilhar">
+                    <label for="compartilhar">Autorizo compartilhamento de dados com terceiros</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
