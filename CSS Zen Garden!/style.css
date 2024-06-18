@@ -75,3 +75,21 @@ aside ul li{
     padding: 0.5em;
     display: inline-block;
 }
+
+.page-wrapper{
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    border-right: #660273 solid 1px;
+    padding-right: 2%;
+}
+
+#design-selection{
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
