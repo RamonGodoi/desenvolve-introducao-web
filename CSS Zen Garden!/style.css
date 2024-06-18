@@ -9,7 +9,7 @@ html{
     color:#660273;
 
     font-size: 18px;
-    font-family: helvetica, sans-serif;
+    font-family: Helvetica;
 }
 
 p {
@@ -80,11 +80,12 @@ aside ul li{
 
 .explanation {
     width: 60%;
+    margin-right: 35%;
     border-right: #660273 solid 1px;
     padding-right: 2%;
 }
 
-#design-selection{
+.design-selection{
     position: absolute;
     top: 500px;
     left: 62%;
@@ -147,4 +148,48 @@ a:hover{
 
 .design-selection li:last-of-type{
     border-bottom: #660273 solid 1px;
+}
+
+@media  screen and (max-width: 768px) {
+    .design-selection {
+        position: static;
+    }
+
+    .explanation{
+        border-right: none;
+        width: 100%;
+    }
+
+    #zen-intro{
+        height: auto;
+    }
+    
+    .participation{
+        flex-direction: column;
+    }
+
+    p{
+        text-indent: 0;
+    }
+}
+
+@media print{
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #zen-intro header{
+        background-color: #44F2E1;
+        color: #660273;
+    }
+    
+    .design-selection {
+        position: static;
+    }
+
+    .explanation{
+        border-right: none;
+        width: 100%;
+    }
+
 }
