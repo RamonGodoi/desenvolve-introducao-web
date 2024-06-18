@@ -1,9 +1,7 @@
 /* Color Theme Swatches in Hex */
-/*.destaque { color: #660273; }
+/*.destaque { color: #e72222; }
 .background { color: #44F2E1; }
 .principal { color: #660273; }
-.Design-de-jogos-2-hex { color: #F2B3E1; }
-.Design-de-jogos-4-hex { color: #1E1940; }
 */
 
 html{
@@ -88,7 +86,7 @@ aside ul li{
 
 #design-selection{
     position: absolute;
-    top: 515px;
+    top: 500px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -127,4 +125,26 @@ aside ul li{
 
 .participation h3{
     align-self: center;
+}
+
+a {
+    color: #e72222;
+}
+
+a:hover{
+    color: hsla(0, 80%, 52%, 0.475);
+}
+
+.main p:first-of-type::first-letter{
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float:left
+}
+
+.design-selection li {
+    border-top:#660273 solid 1px;
+}
+
+.design-selection li:last-of-type{
+    border-bottom: #660273 solid 1px;
 }
